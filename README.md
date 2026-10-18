@@ -47,7 +47,7 @@
 - 点击 Generate token，立即复制并妥保存生成的 token（离开页面后不能再查看）。
 
 ### DISCORD_TOKEN 获取（用于 SESSION_TOKEN 失效后备用登录
-1. 浏览器登录 Discord（网页版）
+1. 浏览器登录 Discord（网页版）(目前从BotHosting访问Discord网站失败，该方案咱不可用)
 2. 按 F12 打开开发者工具 ➡ 网络 ➡ 点击任意频道 ➡ 选择左侧的任意api 
 3. 找到名为 `authorization字段` 的 值，即为discord token,详情如图所示
 <img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/7276d62d-31ff-452c-9e13-165af8323f53" />
